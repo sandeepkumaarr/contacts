@@ -1,8 +1,12 @@
 #cardcom{
     transition: transform .2s;
-    
 }
 
 #cardcom:hover{
     transform: scale(1.1);
+}
+
+img{
+    height: 200px;
+    width: auto;
 }

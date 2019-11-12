@@ -4,7 +4,7 @@ import './card.style.css';
 const Card = ({name,email,mobile,officetype,id}) => {
     
     return(
-        <div id="cardcom" className="text-center bg-green-300 inline-block rounded-lg p-3 m-3 border-2 shadow-xl">
+        <div id="cardcom" className="text-center bg-green-300 inline-block rounded-lg p-4 m-4 border-2 shadow-xl">
             <img alt="robots" src ={`https://robohash.org/${id}?100*100`}/>
             <div>
                 
